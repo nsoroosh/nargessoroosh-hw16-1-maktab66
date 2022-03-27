@@ -27,14 +27,14 @@ import Title from "./Title";
     /**
      * get value of input from ref and set first state
      */
-     setvalue1( ref1.current)
+     setvalue1( ref1.current.value)
   };
   const changeValue2 = () => {
     /**
      * get value of input from ref and set second state
      */
     
-     setvalue2( ref2.current)
+     setvalue2( ref2.current.value)
   };
   return (
     <div className="App">
